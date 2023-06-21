@@ -1,4 +1,4 @@
-from enums.enums import LanguageEnum
+from PythonPractice.enums.enums import LanguageEnum
 
 
 # Switch Case Demonstration. Python don't have switches so if, elif, else like are used

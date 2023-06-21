@@ -65,3 +65,20 @@ class GroupBy:
             else:
                 max2 = number
         return max1, max2
+
+    def check_prime(self):
+        number = input("Enter the number: ")
+        flag = False
+        if int(number) > 1:
+            for i in range(2, int(number)):
+                if (int(number) % i) == 0:
+                    flag = True
+                    break
+            if flag:
+                return 'Not a Prime Number'
+            else:
+                return 'A Prime Number'
+        else:
+            return 'Not a Prime Number'
+
+

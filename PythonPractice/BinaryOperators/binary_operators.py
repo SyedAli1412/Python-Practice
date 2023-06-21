@@ -1,4 +1,4 @@
-from enums.enums import OperationsEnum
+from PythonPractice.enums.enums import OperationsEnum
 
 
 class BinaryOperators:
